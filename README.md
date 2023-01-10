@@ -60,12 +60,9 @@ So here we go. And feel free to send in your PRs!
 
 ## Reason 1: Basic characteristics of Spryker Development
 Let's start off with some development principles that Spryker is based on, an why you might like working with it.
-* Spryker`s entire architecture is built upon the best practices and well-known design principles [SOLID](https://en.wikipedia.org/wiki/SOLID), [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), [KISS](https://en.wikipedia.org/wiki/KISS_principle), [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it), [Facade](https://en.wikipedia.org/wiki/Facade_pattern) & [Factory method](https://en.wikipedia.org/wiki/Factory_method_pattern);
-* Spryker has multiple levels of code reviews that are integrated into the development process:   
-  * Developer code review      
-  * Technical lead code review       
-  * Application architect code review
-* Besides the above human reviews, Spryker uses various tools for monitoring the quality of the codebase and performance of the product in general: [PHPStan](https://phpstan.org/), [PHPMD](https://phpmd.org/), [Psalm](https://psalm.dev/), [Codeception](https://codeception.com/);
+* Spryker`s entire architecture is built upon the best practices and well-known design principles [SOLID](https://en.wikipedia.org/wiki/SOLID), [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), [KISS](https://en.wikipedia.org/wiki/KISS_principle), [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it);
+* Spryker follows [PSR-2 standards](http://www.php-fig.org/psr/psr-2/) and uses various tools for monitoring and improving the quality of the codebase and performance of the product in general: [PHPStan](https://phpstan.org/), [PHPMD](https://phpmd.org/), [Psalm](https://psalm.dev/), [PHPCodeSniffer] (https://github.com/squizlabs/PHP_CodeSniffer), [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) as well as own [Architectural Sniffer](https://github.com/spryker/architecture-sniffer)
+* We highly encourage the TDD approach and solid test coverage, using [Codeception](https://codeception.com/), [Webdriver](https://www.selenium.dev/documentation/webdriver/) and own [Testify](https://github.com/spryker/testify) framework, allowing you to create re-usable helpers and data generators
 * We like to say that we are positive perfectionists, and work only with clean and high-quality code. But you don't need to take that from us: Check our incredible  code quality rating on [Scrutinizer](https://scrutinizer-ci.com/g/spryker/spryker-core/?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/spryker/spryker-core/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/spryker/spryker-core/?branch=master).
 * Our code is open and accessible for everyone to see. Our code is **not** released under an open source license, but all code is [available on GitHub](https://github.com/spryker), there are no parts hidden or encoded. Also when using our PaaS version, the individual features remain open code and can be used, modified or removed at will.   
 
